@@ -20,7 +20,7 @@
         left: 0;
         height: 100%;
         width: 100%;
-        background-color: fade-out($black, 0.15);
+        background-color: fade-out($white, 0.15);
     }
 
     // Masthead content element
@@ -74,7 +74,7 @@
     padding: 1rem;
     text-align: left;
     font-size: 0.75rem;
-    color: rgba($white, 0.5);
+    color: rgba($black, 0.5);
     z-index: 2;
 }
 

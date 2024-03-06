@@ -1,19 +1,26 @@
 doctype html
 html(lang='en')
-
     head
-
         meta(charset='utf-8')
         meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
-        meta(name='description', content='')
-        meta(name='author', content='')
+        meta(name='description', content='Bassline Software')
+        meta(name='author', content='Bassline Software LLC')
 
         title Bassline - Coming Soon
 
-        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+        // Favicon
+        link(rel='apple-touch-icon', sizes='180x180', href='assets/apple-touch-icon.png')
+        link(rel='icon', type='image/png', sizes='32x32', href='assets/favicon-32x32.png')
+        link(rel='icon', type='image/png', sizes='16x16', href='assets/favicon-16x16.png')
+        link(rel='manifest', href='assets/site.webmanifest')
+        link(rel='mask-icon', href='assets/safari-pinned-tab.svg', color='#5bbad5')
+        link(rel='shortcut icon', href='assets/favicon.ico')
+        meta(name='msapplication-TileColor', content='#da532c')
+        meta(name='msapplication-config', content='assets/browserconfig.xml')
+        meta(name='theme-color', content='#ffffff')
 
         // Font Awesome icons (free version)
-        script(src='https://use.fontawesome.com/releases/v6.3.0/js/all.js', crossorigin='anonymous')
+        script(src='https://use.fontawesome.com/releases/v6.5.1/js/all.js', crossorigin='anonymous')
 
         // Google fonts
         link(rel='preconnect', href='https://fonts.gstatic.com')
@@ -24,26 +31,21 @@ html(lang='en')
         link(href='css/styles.css', rel='stylesheet')
 
     body
-
         // Masthead
         .masthead
-            .masthead-content.text-white
+            .masthead-content.text-black
                 .container-fluid.px-4.px-lg-0
-                    h1.fst-italic.lh-1.mb-4 Bassline is on the way
+                    img.img-fluid.mb-0(src='assets/img/bassln_name-black.svg', alt='Bassline Logo')
+                    h1.fst-italic.lh-1.mb-4 is on the way
                     p.mb-5
                         | Let us know if we can build you anything while we work on our new website!
                     a.btn.btn-primary.btn-xl(href='mailto:hello@bassln.com') Contact Us
 
         // Social Icons
-        // For more icon options, visit https://fontawesome.com/icons?d=gallery&p=2&s=brands
         .social-icons
             .d-flex.flex-row.flex-lg-column.justify-content-center.align-items-center.h-100.mt-3.mt-lg-0
-                a.btn.btn-dark.m-3(href='#!')
-                    i.fab.fa-twitter
-                a.btn.btn-dark.m-3(href='#!')
-                    i.fab.fa-facebook-f
-                a.btn.btn-dark.m-3(href='#!')
-                    i.fab.fa-instagram
+                a.btn.btn-dark.m-3(href='https://github.com/bassln' target='_blank')
+                    i.fab.fa-github
         
         .copyright © 2024 Bassline Software LLC. All rights reserved.
 
