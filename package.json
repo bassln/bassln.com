@@ -19,7 +19,7 @@
         "url": "https://github.com/bassln/bassln.com.git"
     },
     "dependencies": {
-        "bootstrap": "5.3.6"
+        "bootstrap": "5.3.7"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.21",
